@@ -154,6 +154,9 @@ kernel/drivers/usb/serial/option.ko
 kernel/drivers/usb/serial/usb_wwan.ko
 kernel/drivers/usb/storage/usb-storage.ko
 kernel/drivers/video/fbdev/core/fb.ko
+kernel/drivers/video/fbdev/core/cfbfillrect.ko
+kernel/drivers/video/fbdev/core/cfbcopyarea.ko
+kernel/drivers/video/fbdev/core/cfbimgblt.ko
 kernel/drivers/video/fbdev/sunplus/fb_sp7021/fb_sp7021.ko
 kernel/net/bluetooth/bluetooth.ko
 kernel/net/bluetooth/bnep/bnep.ko
@@ -194,6 +197,7 @@ kernel/lib/oid_registry.ko
 kernel/lib/crypto/libaes.ko
 kernel/lib/crypto/libarc4.ko
 kernel/lib/crypto/libsha256.ko
+kernel/lib/fonts/font.ko
 kernel/lib/lzo/lzo_decompress.ko
 kernel/lib/mpi/mpi.ko
 kernel/lib/zlib_deflate/zlib_deflate.ko
